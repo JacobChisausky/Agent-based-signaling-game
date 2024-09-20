@@ -31,38 +31,37 @@ A description of parameters are as follows (with values for example):
  
 	"w4": 1, -------------------------- Receiver benefit - play r = 0 to q = 0 
  
-	"m": 0.333333333333333, -----------
+	"m": 0.333333333333333, ----------- Fraction of individuals that are consonant
+  
+	"interactionPartners": 10, -------- How many games are played against different partners per individual per generation?
  
-	"interactionPartners": 10, --------
+	"mutRateS": 0.001, ---------------- Mutation rate for signaler strategies
  
-	"mutRateS": 0.001, ----------------
+	"mutStepS": 0.01, ----------------- Mutation size for signaler strategies
  
-	"mutStepS": 0.01, -----------------
+	"mutRateR": 0.001, ---------------- Mutation rate for receiver strategies
  
-	"mutRateR": 0.001, ----------------
+	"mutStepR": 0.01, ----------------- Mutation size for receiver strategies
  
-	"mutStepR": 0.01, -----------------
+	"cauchyDist": false, -------------- Use a cauchy distribution rather than normal for mutations? 
  
-	"cauchyDist": false, --------------
+	"initS01": 0.5, ------------------- Initial value for s01 for all iundividuals
  
-	"initS01": 0.5, -------------------
+	"initS11": 1, --------------------- Initial value for s11 for all iundividuals
  
-	"initS11": 1, ---------------------
+	"initR01": 0, --------------------- Initial value for r01 for all iundividuals
  
-	"initR01": 0, ---------------------
+	"initR11": 0.5, ------------------- Initial value for r11 for all iundividuals
  
-	"initR11": 0.5, -------------------
+	"replicates": 10, ------------------ How many replicates to run? 
  
-	"replicates": 2, ------------------
+	"reportFreq": 100, ---------------- How many times to export data during the simulation?
  
-	"reportFreq": 100, ----------------
+	"dataFileName": "Local_test", ----- This will be part of the file name for .csv files
  
-	"dataFileName": "Local_test", -----
+	"dataFileFolder": ".", ------------ Where to save data. Leave this as "." to save data in same folder as executable
  
-	"dataFileFolder": ".", ------------
- 
-	"computeMeansInCpp": true ---------
-
+	"computeMeansInCpp": true --------- If false, export data for all individuals without calculating means.
 
 
 
