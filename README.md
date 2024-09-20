@@ -8,8 +8,7 @@ Download all files. Edit the 'example_params.json" file to your desired combinat
 
 
 A description of parameters are as follows (with values for example):
-	"seed": 16570320, ----------------- Seed for random number generator
- 
+	"seed": 16570320, ----------------- Seed for random number generator 
 	"N": 1000, ------------------------ Number of signalers and receivers
  
 	"G": 1000, ------------------------ Number of generations
